@@ -141,10 +141,11 @@ for k in sortedkeys :
 
 x.close()
 '''
-problem:
-material names in the material text can not occur more than once!!!1
-'water' 'and steel and water' caused conflict !!!
-    
+issues to consider:
+1) materials names in the material text cannot occur more than once!!!
+'water' and 'steel and water' caused conflict !!!
+2) created mcnp input without numbers!!     
+3) how to get the tags on the h5m file to match the created mcnp materials!!! 
 
 
 '''
